@@ -444,7 +444,7 @@ header #arrow {
 }
 
 .pic1 {
-    background: url(/ressources/barber1.jpg);
+    background: url(/ressources/barber1.JPG);
     background-position: 35% 15%;
 }
 
@@ -453,7 +453,7 @@ header #arrow {
 }
 
 .pic2 {
-    background: url(/ressources/barber2.jpg);
+    background: url(/ressources/barber2.JPG);
     background-position: 50% 40%;
 }
 
@@ -462,7 +462,7 @@ header #arrow {
 }
 
 .pic3 {
-    background: url(/ressources/barber3.jpg);
+    background: url(/ressources/barber3.JPG);
     background-position: center;
 }
 
