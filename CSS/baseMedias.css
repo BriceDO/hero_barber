@@ -1,0 +1,151 @@
+/* Navigation */
+
+@media (max-width: 1200px) {
+    #navigation a {
+        font-size: 2.2rem;
+        padding: 1rem 5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    #navigation a:not(:nth-child(5)) {
+        display: none;
+    }
+    .icon{
+        display: block;
+        position: absolute;
+        right: -3rem;
+        top: -1.6rem;
+        cursor: pointer;
+        color: #373737;
+        font-size: 3rem!important;
+    }
+    #navigation {
+        width: 100%;
+        text-align: center;
+        height: 5rem;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+        transition: all 0.4s ease-in-out;
+        border-bottom: 2px solid #373737;
+    }
+}
+
+/* Page d'acceuil */
+
+@media (max-width: 1200px) {
+    header {
+        height: 90vh;
+    }
+    h1 {
+        top: 27rem;
+        font-size: 9rem;
+    }
+    header h2 {
+        top: 27rem;
+        font-size: 3.5rem;
+    }
+    header #arrow {
+        height: 6rem;
+        width: 6rem;
+        top: 80%;
+        font-size: 3.5rem;
+        line-height: 6rem;
+    }
+}
+
+@media (max-width: 992px) {
+    header{
+        height: 80vh;
+    }
+    h1 {
+        top: 20rem;
+        font-size: 7rem;
+    }
+    header h2 {
+        top: 23rem;
+        font-size: 3..8rem;
+    }
+    header #arrow {
+        top: 70%;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        height: 73vh;
+    }
+    h1 {
+        top: 22rem;
+        font-size: 6.2rem;
+    }
+    header h2 {
+        top: 24rem;
+        font-size: 2.4rem;
+        width: 80%;
+        margin: auto;
+    }
+    header #arrow {
+        height: 5rem;
+        width: 5rem;
+        top: 65%;
+        font-size: 2.5rem;
+        line-height: 5rem;
+    }
+}
+
+@media (max-width: 720px) {
+    h1 {
+        top: 22rem;
+        font-size: 5rem
+    }
+}
+
+@media (max-width: 559px) {
+    h1{
+        top: 22rem;
+        font-size: 4.4rem;
+    }
+}
+
+@media (max-width: 497px){
+    header {
+        height: 60vh;
+    }
+    h1 {
+        top: 20rem;
+        font-size: 5.2rem;
+        line-height: 5.2rem;
+    }
+    header h2 {
+        top: 20rem;
+        font-size: 2rem;
+        width: 50%;
+    }
+    header #arrow {
+        height: 4.5rem;
+        width: 4.5rem;
+        top: 54%;
+        font-size: 2.5rem;
+        line-height: 4.5rem;
+    }
+}
+
+@media (max-width: 425px) {
+    h1 {
+        top: 18rem;
+        font-size: 5.2rem;
+        line-height: 5.5rem;
+    }
+    header h2 {
+        top: 20rem;
+        font-size: 2rem;
+        width: 60%;
+    }
+    header #arrow {
+        height: 4.5rem;
+        width: 4.5rem;
+        top: 54%;
+        font-size: 2.5rem;
+        line-height: 4.5rem;
+    }
+}
