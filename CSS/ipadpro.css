@@ -1,0 +1,22 @@
+header {
+    height: 70vh;
+}
+
+h1 {
+    top: 33rem;
+    font-size: 9rem;
+}
+
+header h2 {
+    top: 33rem;
+    font-size: 4.2rem;
+    width: 100%;
+}
+
+header #arrow {
+    height: 6rem;
+    width: 6rem;
+    top: 60%;
+    font-size: 4rem;
+    line-height: 6.5rem;
+}

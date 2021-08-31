@@ -28,6 +28,18 @@
         transition: all 0.4s ease-in-out;
         border-bottom: 2px solid #373737;
     }
+    #navigation.responsive {
+        height: 38rem;
+    }
+    #navigation.responsive a:not(:nth-child(5)){
+        display: block;
+        text-align: center;
+        background: #F0EAd6;
+        margin: 0;
+        position: relative;
+        top: 4rem;
+        font-size: 3rem;
+    }
 }
 
 /* Page d'acceuil */
@@ -273,5 +285,94 @@
     }
     .carousel .changeHidden .element {
         font-size: 2.2;
+    }
+}
+
+/* Media Equipe */
+
+@media (max-width: 1200px) {
+    #equipe {
+        height: 70rem;
+    }
+}
+
+@media (max-width: 992px) {
+    #equipe {
+        height: 65rem;
+    }
+    #equipe h3 {
+        font-size: 4.5rem;
+    }
+    #equipe p {
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+    }
+    .team {
+        margin: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    #equipe {
+        height: 180rem;
+        background: linear-gradient(to right, rgba(55, 55, 55, 0.1), rgba(243, 235, 209));
+        padding-bottom: 5rem;
+    }
+    #equipe h3 {
+        font-size: 3.5rem;
+        margin: 5rem 0 2rem 0;
+    }
+    #equipe p {
+        display: block;
+        margin: auto;
+        font-size: 1.8rem;
+        width: 70%;
+    }
+    .containerFlexTeam {
+        height: 165rem;
+        flex-direction: column;
+    }
+    .team {
+        width: 30rem;
+        margin: 2rem;
+    }
+    .pic2 {
+        background-position: 50% 35%;
+    }
+}
+
+@media (max-width: 425px) {
+    #equipe {
+        height: 185rem;
+    }
+}
+
+/* Medias Contact */
+
+@media (max-width: 768px) {
+    #contact {
+        height: 20rem;
+    }
+    #contact h2 {
+        font-size: 7rem;
+    }
+    #contact h3 {
+        font-size: 3.5rem;
+    }
+    .medias {
+        font-size: 7rem;
+        margin: 2rem;
+    }
+}
+
+@media (max-width: 425px) {
+    #contact h2 {
+        font-size: 5rem;
+    }
+    #contact h3 {
+        font-size: 3.5rem;
+    }
+    .medias {
+        font-size: 5rem;
     }
 }
